@@ -1,0 +1,28 @@
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin:auto;
+    padding: auto;
+}
+
+/* Style for table header cells (th) */
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style for table data cells (td) */
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.action-buttons {
+    display: flex;
+}
+
+.action-buttons button {
+    margin-right: 5px;
+}
